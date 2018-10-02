@@ -62,8 +62,8 @@ public class Controller extends HttpServlet {
                 f.getA().add(c);
             }
         }
-        Gson oGson = new Gson();
-        response.getWriter().append(oGson.toJson(fs));
+        Gson oGsono = new Gson();
+        response.getWriter().append(oGsono.toJson(fs));
     }
 
     // <editor-fold defaultstate="collapsed" desc="HttpServlet methods. Click on the + sign on the left to edit the code.">
