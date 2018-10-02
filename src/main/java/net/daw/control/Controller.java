@@ -54,7 +54,7 @@ public class Controller extends HttpServlet {
             f.setI(i);
             fs.add(f);
             f.setA(new ArrayList<Celda>());
-            for (int j = 0; j <= 10; j++) {
+            for (int j = 0; j <= 101; j++) {
                 Celda c = new Celda();
                 c.setI(i);
                 c.setJ(j);
